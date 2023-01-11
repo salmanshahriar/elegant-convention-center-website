@@ -1,0 +1,102 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #848199;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+.pricing {
+  padding: 100px 0;
+}
+
+.pricing h2 {
+  margin-bottom: 100px;
+}
+
+.pricing .card.premium {
+  background-color: #3F87F5;
+  color: #ffffff;
+  border-radius: 26px;
+}
+
+.pricing .card.premium ul li {
+  background-color: #3F87F5;
+  color: #ffffff;
+}
+
+.pricing .card-title {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.pricing .card-title:nth-child(2) {
+  margin-bottom: 15px;
+}
+
+.pricing ul li {
+  color: #848199;
+}
+
+.pricing .card .btn {
+  background-color: rgb(244, 150, 209, 0.2);
+}
+
+.frequently-asked-question {
+  padding: 100px 0;
+}
+
+.frequently-asked-question .section-title {
+  margin-bottom: 100px;
+}
+
+.accordion-button {
+  background: none !important;
+  font-weight: 500;
+}
+
+.accordion-button:focus, .accordion-button.active:focus {
+  color: black;
+}
+
+.footer {
+  padding: 50px 0;
+  background-color: #0B0D17;
+  color: white;
+}
+
+@media screen and (max-width: 576px) {
+  .sm-logo {
+    font-size: 16px;
+  }
+
+  .carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+  }
+
+  .pricing {
+    padding: 50px 0;
+  }
+
+  .pricing h2 {
+    margin-bottom: 50px;
+  }
+
+  .pricing .card.premium {
+    margin-top: 0;
+  }
+
+  .frequently-asked-question {
+    padding: 50px 0;
+  }
+
+  .frequently-asked-question .section-title {
+    margin-bottom: 50px;
+  }
+
+  .frequently-asked-question img {
+    margin-bottom: 25px;
+  }
+}
